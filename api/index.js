@@ -18,6 +18,8 @@ mongoose.connect(process.env.MONGO).then(() => {
   console.log("connected on db");
 });
 
+
+
 app.listen(3000, () => {
   console.log("app is listening in port 3000");
 });
